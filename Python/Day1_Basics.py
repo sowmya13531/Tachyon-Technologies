@@ -94,3 +94,33 @@ top_student = find_topper(students)
 # Step 6: Print result
 print("\nTopper is:")
 print(top_student["name"], "with", top_student["marks"], "marks")
+
+
+#OOP
+#Basic class
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print(self.name, self.marks)
+
+#create object
+s1 = Student("Sowmya", 90)
+s1.display()
+
+#1.Encapsulation
+#Data+Methods
+
+#2.Inheritance
+class Person:
+    def greet(self):
+        print("Hello")
+
+class Student(Person):
+    pass
+
+#Polymorphism(Works for int,str,list)
+def add(a, b):
+    return a + b
