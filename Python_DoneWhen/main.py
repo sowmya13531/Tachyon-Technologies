@@ -18,7 +18,7 @@ def filter_people(data, min_age):
 
 
 if __name__ == "__main__":
-    with open("details.json", "r") as file:
+    with open("Python_DoneWhen/details.json", "r") as file:
         data = json.load(file)
 
     min_age = int(input("Enter minimum age: "))
